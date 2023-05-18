@@ -131,7 +131,3 @@ data "azurerm_public_ip" "ip" {
   resource_group_name = azurerm_virtual_machine.vm.resource_group_name
   depends_on          = [azurerm_virtual_machine.vm]
 }
-
-output "os_sku" {
-  value = lookup(var.sku, var.location)
-}
