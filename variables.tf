@@ -4,13 +4,13 @@
 variable "location" {}
 
 variable "admin_username" {
-  default = admin
+  default = "admin"
   type        = string
   description = "Administrator user name for virtual machine"
 }
 
 variable "admin_password" {
-  default = admin
+  default = "admin"
   type        = string
   description = "Password must meet Azure complexity requirements"
 }
