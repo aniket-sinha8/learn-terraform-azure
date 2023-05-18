@@ -15,6 +15,8 @@ terraform {
 
 provider "azurerm" {
   features {}
+  
+  subscription_id = "d8cee4c6-1c47-4bf5-88df-00377f235dcd"
 }
 
 # Create a resource group
