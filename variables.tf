@@ -35,3 +35,19 @@ variable "sku" {
     eastus  = "18.04-LTS"
   }
 }
+
+variable "subscriptionID" {
+  type = string
+}
+
+variable "clientID" {
+  type = string
+}
+
+variable "clientSecret" {
+  type = string
+}
+
+variable "tenantID" {
+  type = string
+}
